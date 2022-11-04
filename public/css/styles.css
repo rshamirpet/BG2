@@ -1,0 +1,190 @@
+/* navbar */
+.navbar{
+    border-bottom: 1px solid grey;
+}
+.navbar-nav li a:hover{
+    color:rgb(255, 255, 252);
+}
+
+/* content */
+.content{
+    padding: 2rem 0;
+    box-sizing: border-box;
+}
+.content .image img{
+    width: 100%;
+    height: 400px;
+    border-radius: 50%;
+}
+.content .home-content{
+    padding-right: 0rem;
+    box-sizing: border-box;
+}
+.content h1{
+    letter-spacing: 5px;
+    line-height: normal;
+    margin-bottom: 3.5rem;
+}
+.content .home-content p{
+    font-weight: bold;
+}
+
+/* form-style */
+.form-style input{
+    width: 30%;
+    text-align: center;
+    padding: 5px 10px;
+    margin-right: 1rem;
+    /* background-color: black;
+    color: white; */
+    border-radius: 5px;
+    border: 1px solid black;
+    font-weight: bold;
+}
+.form-style button{
+    margin-top: 2rem;
+}
+.form-style button:hover{
+    background-color: rgba(21, 45, 222, 0.995);
+    color: white;
+    border: 1px solid white;
+}
+
+/* sloka */
+.sloka-content{
+    padding: 3rem 0;
+}
+.sloka-content img{
+    width:100%;
+    height:auto;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.sloka-content .slok h3{
+    line-height: 2;
+    padding: 3rem 0;
+}
+
+/* error page */
+.error{
+    padding: 6rem;
+    width: 100%;
+    text-align: center;
+}
+.error a{
+    text-decoration: none;
+}
+
+/* footer */
+.footer {
+    /* position: absolute;
+    bottom: 0;
+    width:100%; */
+	text-align: center;
+    padding: .5rem 0;
+	background-color: #dae1df;
+}
+.footer p{
+    font-size: 13px;
+}
+.footer a{
+    margin:0 1rem;
+    color:black;
+}
+.footer a:hover{
+    color: blue;
+}
+
+
+/* responsive mobile size*/
+@media (min-width:360px) and (max-width:760px){
+    .content{
+        background-image: url("../images/Krishna_mobile.jpg");
+        background-size: cover;
+        background-position: top center;
+    }
+    .content .home-content{
+        padding:  0rem 1.5rem;
+    }
+    .content .home-content p{
+        color:white;
+        letter-spacing: 1;
+        font-style: italic;
+        padding-bottom: 8rem;
+    }
+    .content .home-content h1{
+        display: none;
+    }
+    .content .home-content form input{
+        width:100%;
+        margin-bottom: 1rem;
+    }
+    .content .home-content form button{
+        margin-top: 10px;
+    }
+    .content .image img{
+        display: none;
+    }
+    .sloka-content{
+        padding:1rem 2rem;
+    }
+    .sloka-content img{
+        margin-bottom: 1rem;
+        padding:0 1rem;
+    }
+    .sloka-content .slok h3{
+        padding: 0rem 0;
+    }
+}
+
+/* responsive tablet/desktop */
+@media (min-width:761px) and (max-width:1000px){
+    .content .home-content h1{
+        margin-bottom: 2rem;
+        line-height: 1;
+    }
+    .content .home-content form input{
+        width: 60%;
+        margin-bottom: 1rem;
+    }
+    .content .image img{
+        border-radius: 0;
+    }
+    .content .home-content form button{
+        margin-top: 10px;
+    }
+    .sloka-content .image img{
+        border-radius: 0;
+    }
+    .sloka-content .slok h3{
+        padding: 0rem 0;
+    }
+}
+
+
+.col-xs-11 {width: 91.662%}
+.col-xs-10 {width: 83.332%;}
+.col-xs-9 {width: 75%;}
+.col-xs-8 {width: 66.662%;}
+.col-xs-7 {width: 58.331%}
+.col-xs-6 {width: 50%;}
+.col-xs-5 {width: 41.662%}
+.col-xs-4 {width: 33.332%;}
+.col-xs-3 {width: 25%;}
+.col-xs-2 {width: 16.662%;}
+.col-xs-1 {width: 8.332%;}
+
+@media screen and (min-width: 768px) {
+	
+    .col-sm-11 {width: 91.662%}
+	.col-sm-10 {width: 83.332%;}
+	.col-sm-9 {width: 75%;}
+	.col-sm-8 {width: 66.662%;}
+	.col-sm-7 {width: 58.331%}
+	.col-sm-6 {width: 50%;}
+	.col-sm-5 {width: 41.662%}
+	.col-sm-4 {width: 33.332%;}
+	.col-sm-3 {width: 25%;}
+	.col-sm-2 {width: 16.662%;}
+	.col-sm-1 {width: 8.332%;}	
+}

@@ -1,0 +1,38 @@
+<%- include("partials/header"); -%>
+
+<div class="content">
+    <div class="container">
+        <div class="row">
+        
+            <div class="home-content col-md-8">
+                <h1>One who sees inaction in action, and action in inaction, is intelligent among men.</h1>
+                <p>Get the sloka you wish in one go... (Total of 18 chapters and respective verse's)</p>
+                <form class="form-style" action="/sloka" method="post">
+                    <input type="number" name="chapter_number" placeholder="Enter Chapter number" min="1" max="18">
+                    <input type="number" name="sloka_number" placeholder="Enter Sloka number" min="1"><br>
+                    <button type="submit" name="button" class="btn btn-primary btn-md">Go</button>
+                </form>
+            </div>
+            <div class="image col-md-4">
+                <img src="../images/Krishna_mobile.jpg" alt="krishna-image">
+            </div>
+        
+        </div>
+    </div>
+
+    <!-- <div class="image container">
+        <img src="../images/Krishna_mobile.jpg" alt="krishna-image">
+    </div>
+    <div class="container">
+    <h1>One who sees inaction in action, and action in inaction, is intelligent among men.</h1>
+    
+    <form class="form-style" action="/sloka" method="post">
+        <input type="number" name="chapter_number" placeholder="Enter Chapter number" min="1" max="18"><br>
+        <input type="number" name="sloka_number" placeholder="Enter Sloka number" min="1"><br>
+        <button type="submit" name="button" class="btn btn-primary btn-md">Go</button>
+    </form>
+    </div> -->
+    
+</div>
+    
+<%- include("partials/footer"); -%>
